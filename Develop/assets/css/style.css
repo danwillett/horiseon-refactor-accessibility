@@ -1,13 +1,15 @@
+/* defaults border-box to all height and width properties. defaults no padding or margin to all elements */
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 0;
     margin: 0;
 }
-
+/* specifices the webpage's background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* defines header section's padding, font, background color, and text color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +17,19 @@ header {
     color: #ffffff;
 }
 
+/* describes webpage display and font size */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* changes color for "seon" of Horiseon */
+.seo {
     color: #d9dcd6;
 }
 
-header section {
+/* defines size of navigation bar and fonts properties of links*/
+nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +37,29 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+/* tells the nav-bar to not have any bullet points or numbering for links */
+.nav-ul{
     list-style-type: none;
 }
 
-header section ul li {
+/* formatting for nav-bar links are inline with a left margin buffer*/
+ .nav-li{
     display: inline-block;
     margin-left: 25px;
 }
 
+/* all links are white with no underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* defines all paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* this class generates a background image for the defined section size*/
 .background-image {
     height: 800px;
     width: 100%;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* defines section dimensions for webpage content descriptions */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* class positions images on the left side of each content section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* class positions images on the right side of each content section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* defines aside section's dimensions, font size, and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +100,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-items {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-items h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-items img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.info-panels {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,58 +125,23 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.info-panels img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.info-panels h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+
 }
 
-.footer h2 {
+footer h3 {
     font-size: 20px;
 }
