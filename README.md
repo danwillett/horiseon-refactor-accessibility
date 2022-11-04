@@ -7,15 +7,6 @@ This project took an existing repo encoding the Horiseon webpage and refactored 
 elements. This increased readability of the html file for future collaboraters working to improve the website. Additionally, alt descriptions were added to images to increase webpage accessbibility. This project highlights the importance of project readability in both the deployed application and coding scripts. 
 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
 
 No installation is required for this project other than a working web browser application application.
