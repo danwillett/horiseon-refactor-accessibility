@@ -1,9 +1,10 @@
 /* defaults border-box to all height and width properties. defaults no padding or margin to all elements */
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 /* specifices the webpage's background color */
 body {
     background-color: #d9dcd6;
@@ -29,7 +30,7 @@ header h1 {
 }
 
 /* defines size of navigation bar and fonts properties of links*/
-nav{
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,12 +39,12 @@ nav{
 }
 
 /* tells the nav-bar to not have any bullet points or numbering for links */
-.nav-ul{
+.nav-ul {
     list-style-type: none;
 }
 
 /* formatting for nav-bar links are inline with a left margin buffer*/
- .nav-li{
+.nav-li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -100,6 +101,7 @@ p {
     background-color: #2589bd;
 }
 
+/* following code decribes styling for the benefits sections */
 .benefit-items {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,6 +118,7 @@ p {
     max-width: 150px;
 }
 
+/* following code provides styling for info panels and images */
 .info-panels {
     margin-bottom: 20px;
     padding: 50px;
@@ -134,6 +137,7 @@ p {
     font-size: 36px;
 }
 
+/* footer styling */
 footer {
     padding: 30px;
     clear: both;
