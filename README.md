@@ -14,7 +14,7 @@ No installation is required for this project other than a working web browser ap
 ## Usage
 
 Click the link below and the application will open in your default web browser:
-________
+https://danwillett.github.io/refactor-accessibility/
 
 The webpage has links in the navigation bar that direct you to different pages. These are still under construction, however, and will not take you anywhere.
 
