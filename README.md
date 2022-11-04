@@ -21,8 +21,8 @@ The webpage has links in the navigation bar that direct you to different pages. 
 The rest of the webpage shows information in written and visual form for how Horiseon can be used to help your company.
 
 Below are screenshots of the deployed webpage.
-![alt text](./Develop/assets/images/screenshot-1.png)
-![alt text](./Develop/assets/images/screenshot-2.png)
+![alt text](/assets/images/screen-shot-1.png)
+![alt text](/assets/images/screenshot-2.png)
 
 
 ## Credits
